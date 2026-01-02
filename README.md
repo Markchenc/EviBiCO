@@ -42,7 +42,7 @@ modelscope
 python main.py
 ```
 
-### Test-Time Adaptation
+### Adaptation with LLM Results
 
 ```bash
 python adaptation.py --model_path best_bigfive.pth --llm_results <llm_results.json>(You can refer to the methods in the paper to obtain it.)
